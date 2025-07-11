@@ -23,7 +23,7 @@ export default function SearchMovies() {
   };
 
   useEffect(() => {
-    handleSearch('avengers'); // default display
+    handleSearch('avengers'); 
   }, []);
 
   return (
